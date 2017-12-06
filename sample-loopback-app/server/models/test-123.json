@@ -1,0 +1,28 @@
+{
+  "name": "Test123",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "strict": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "abc": {
+      "type": "string",
+      "required": true
+    },
+    "xyz": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "test": {
+      "type": "belongsTo",
+      "model": "TestUserAdress",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

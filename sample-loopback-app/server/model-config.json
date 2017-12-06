@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "TestUser": {
+    "dataSource": "profile",
+    "public": true
+  },
+  "DateCheck": {
+    "dataSource": "profile",
+    "public": true
+  },
+  "TestUserAdress": {
+    "dataSource": "profile",
+    "public": true
+  },
+  "Test123": {
+    "dataSource": "profile",
+    "public": false
+  }
+}

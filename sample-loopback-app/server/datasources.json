@@ -1,0 +1,12 @@
+{
+  "profile": {
+    "host": "DVUMDB003.corporate.act.org:27017",
+    "port": 27017,
+    "url": "mongodb://act360DataApp:VeD+6EstetAv!qeG@DVUMDB003.corporate.act.org:27017/act360Data",
+    "database": "act360Data",
+    "password": "VeD+6EstetAv!qeG",
+    "name": "profile",
+    "user": "act360DataApp",
+    "connector": "mongodb"
+  }
+}

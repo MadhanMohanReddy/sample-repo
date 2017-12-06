@@ -1,0 +1,33 @@
+{
+  "name": "TestUser",
+  "plural": "TestUser",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "strict": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "address": {
+      "type": "embedsOne",
+      "model": "TestUserAdress",
+      "property": "billingAddress",
+      "options": {
+        "validate": true,
+        "forceId": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
