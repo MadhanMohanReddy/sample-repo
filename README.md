@@ -1,5 +1,6 @@
 # sample-repo
 
+Just FYI
 
 Two Models
 	TestUser
@@ -22,7 +23,7 @@ Two Models
 				"email": "maddy123@mailinator.com"
 			}
 		
-	2. PATCH API updates the whole embedded model. In the below case, street1 become null.
+	2. PATCH API updates the whole embedded model. In the below case, street1 become null(default value)
 		Eg. PATCH http://localhost:3000/api/TestUser/5a26de72c43d8226b8a38198
 			{
 				"email": "maddy456@mailinator.com",
